@@ -1,83 +1,83 @@
 [[alsa_plugins]]
 arch = "aarch64"
-git-tree-sha1 = "4c49604571b4357ba1f55ae8a2c2a10714764ac2"
+git-tree-sha1 = "abe36b71c65ef27a4660bf2196523940b038fe42"
 libc = "glibc"
 os = "linux"
 
     [[alsa_plugins.download]]
-    sha256 = "6758c9a89324d39b8efc0a8b45afc8a9dbce57c1a8d9d739f97297840f0fb6b9"
+    sha256 = "a2712ddc8b2ea811de525154e9ba5d9e1731b3184c7e9aab32ba798328de757c"
     url = "https://github.com/JuliaBinaryWrappers/alsa_plugins_jll.jl/releases/download/alsa_plugins-v1.2.13+0/alsa_plugins.v1.2.13.aarch64-linux-gnu.tar.gz"
 [[alsa_plugins]]
 arch = "aarch64"
-git-tree-sha1 = "7ae2ff911a5978ad6abf3c4fa4200de3507affae"
+git-tree-sha1 = "3b56bfeec8bddee2eb74ff5c29b59e4121d59657"
 libc = "musl"
 os = "linux"
 
     [[alsa_plugins.download]]
-    sha256 = "e3205aaac4efde9ec38b8d8196737025af83b8a0f0b0529a16cbf72c7ec50d65"
+    sha256 = "bb3efc669500640de741cd8e2df11076a093188e989e6a348c0a100f97bc8ce8"
     url = "https://github.com/JuliaBinaryWrappers/alsa_plugins_jll.jl/releases/download/alsa_plugins-v1.2.13+0/alsa_plugins.v1.2.13.aarch64-linux-musl.tar.gz"
 [[alsa_plugins]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "4d41ef953d963bda5656780c6b07f13d8dd6b933"
+git-tree-sha1 = "4e99f63b7c9649cd26fa97f6278e9633503fe0d3"
 libc = "glibc"
 os = "linux"
 
     [[alsa_plugins.download]]
-    sha256 = "1eab82e0a7bccbd666d2f73ad364fb89d986a3fbccd72845ff9d37601ee3b166"
+    sha256 = "5f96ddcc040f76b64cd87350bebebfc75dccd61eae71f84a790bc7293ca46b53"
     url = "https://github.com/JuliaBinaryWrappers/alsa_plugins_jll.jl/releases/download/alsa_plugins-v1.2.13+0/alsa_plugins.v1.2.13.armv7l-linux-gnueabihf.tar.gz"
 [[alsa_plugins]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "70cccee74d2f767eb7c0f3acdceee1c7c55a720b"
+git-tree-sha1 = "7c64d1dc338f5ab3b2a0c326fb0e720be0c409a5"
 libc = "musl"
 os = "linux"
 
     [[alsa_plugins.download]]
-    sha256 = "0c045d52d2f0f65ccb3a77782a170e6fecccf8f73a3f582e292cddefcba45ad7"
+    sha256 = "ac18421b137c0b5aba4471f7a2f1f9611d5f4e51927b403efdff743ac91fda3f"
     url = "https://github.com/JuliaBinaryWrappers/alsa_plugins_jll.jl/releases/download/alsa_plugins-v1.2.13+0/alsa_plugins.v1.2.13.armv7l-linux-musleabihf.tar.gz"
 [[alsa_plugins]]
 arch = "i686"
-git-tree-sha1 = "12d9241fff8b0355c850e36f5666c56ae8b88819"
+git-tree-sha1 = "d28c54506142ef86c62a0b7c56e6f05cf38c9997"
 libc = "glibc"
 os = "linux"
 
     [[alsa_plugins.download]]
-    sha256 = "e093ae8ec1d6a0bbe2403044b6ab3df85d0a3adbf91c2f7cd43f324fa4e4f822"
+    sha256 = "c2528d66978528afa1c2cbb327f017f8d371b0f998a473ad740e858f5784af3b"
     url = "https://github.com/JuliaBinaryWrappers/alsa_plugins_jll.jl/releases/download/alsa_plugins-v1.2.13+0/alsa_plugins.v1.2.13.i686-linux-gnu.tar.gz"
 [[alsa_plugins]]
 arch = "i686"
-git-tree-sha1 = "f160905bffa5a095251ef52700f20376e2eb0a6f"
+git-tree-sha1 = "80d0ed8660609a4db0313224235be35c90514bbe"
 libc = "musl"
 os = "linux"
 
     [[alsa_plugins.download]]
-    sha256 = "b8a146cb8bc6f9db89ee8c3abffa6baa8711bc541c27f7b787d529fc6d088e45"
+    sha256 = "d1fd5738f1eabb796458bcd0060b71666b68c55ec4e41b6db3e447279ce08119"
     url = "https://github.com/JuliaBinaryWrappers/alsa_plugins_jll.jl/releases/download/alsa_plugins-v1.2.13+0/alsa_plugins.v1.2.13.i686-linux-musl.tar.gz"
 [[alsa_plugins]]
 arch = "powerpc64le"
-git-tree-sha1 = "dcc1f726563ba93bfc39de4996bab78cf4e41b7d"
+git-tree-sha1 = "10ebc065462d8439b6623f698561dc097fa7d9c2"
 libc = "glibc"
 os = "linux"
 
     [[alsa_plugins.download]]
-    sha256 = "62825e038d3f6a23b5ea4ff1262d463f601e031be09a5be447ee60552dc39315"
+    sha256 = "0b1dc5d37b9a9b7a4572ea1fa89977cb2a84a0bd36ec9677f571423b1826853a"
     url = "https://github.com/JuliaBinaryWrappers/alsa_plugins_jll.jl/releases/download/alsa_plugins-v1.2.13+0/alsa_plugins.v1.2.13.powerpc64le-linux-gnu.tar.gz"
 [[alsa_plugins]]
 arch = "x86_64"
-git-tree-sha1 = "937f1f11a618d5f717fa5208e57f26b021971d13"
+git-tree-sha1 = "0cd12c59eaf8e759e71e91a333dd2457b38bc590"
 libc = "glibc"
 os = "linux"
 
     [[alsa_plugins.download]]
-    sha256 = "1d7aebed1b44cbe5976f255879c8c184ca2e86feaa3c538794ca25b0dab8c547"
+    sha256 = "723f70a5a2f501a65840cf2ba8712ab3d32343a3dd599a416c4f08745f8d6b19"
     url = "https://github.com/JuliaBinaryWrappers/alsa_plugins_jll.jl/releases/download/alsa_plugins-v1.2.13+0/alsa_plugins.v1.2.13.x86_64-linux-gnu.tar.gz"
 [[alsa_plugins]]
 arch = "x86_64"
-git-tree-sha1 = "831557ebe5a632e728bbd3762ec49fde34fb792e"
+git-tree-sha1 = "8a2ae94841f938a6066e682d100f4ab6b5f9e1c1"
 libc = "musl"
 os = "linux"
 
     [[alsa_plugins.download]]
-    sha256 = "fa4d9bd6c3bf67e316d71368b627654a12210a717d5bf10808b62551e8ef4cca"
+    sha256 = "2456bc4dc613788c183424d06fd29a3376c1f89097a4281f06e4d4073d710a2b"
     url = "https://github.com/JuliaBinaryWrappers/alsa_plugins_jll.jl/releases/download/alsa_plugins-v1.2.13+0/alsa_plugins.v1.2.13.x86_64-linux-musl.tar.gz"

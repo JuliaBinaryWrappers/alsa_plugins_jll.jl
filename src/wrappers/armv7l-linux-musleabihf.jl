@@ -25,85 +25,85 @@ function __init__()
     JLLWrappers.@init_library_product(
         libasound_module_conf_pulse,
         "lib/alsa-lib/libasound_module_conf_pulse.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_library_product(
         libasound_module_ctl_arcam_av,
         "lib/alsa-lib/libasound_module_ctl_arcam_av.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_library_product(
         libasound_module_ctl_oss,
         "lib/alsa-lib/libasound_module_ctl_oss.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_library_product(
         libasound_module_ctl_pulse,
         "lib/alsa-lib/libasound_module_ctl_pulse.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_library_product(
         libasound_module_pcm_a52,
         "lib/alsa-lib/libasound_module_pcm_a52.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_library_product(
         libasound_module_pcm_oss,
         "lib/alsa-lib/libasound_module_pcm_oss.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_library_product(
         libasound_module_pcm_pulse,
         "lib/alsa-lib/libasound_module_pcm_pulse.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_library_product(
         libasound_module_pcm_speex,
         "lib/alsa-lib/libasound_module_pcm_speex.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_library_product(
         libasound_module_pcm_upmix,
         "lib/alsa-lib/libasound_module_pcm_upmix.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_library_product(
         libasound_module_pcm_usb_stream,
         "lib/alsa-lib/libasound_module_pcm_usb_stream.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_library_product(
         libasound_module_pcm_vdownmix,
         "lib/alsa-lib/libasound_module_pcm_vdownmix.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_library_product(
         libasound_module_rate_lavrate,
         "lib/alsa-lib/libasound_module_rate_lavrate.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_library_product(
         libasound_module_rate_samplerate,
         "lib/alsa-lib/libasound_module_rate_samplerate.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_library_product(
         libasound_module_rate_speexrate,
         "lib/alsa-lib/libasound_module_rate_speexrate.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@generate_init_footer()
